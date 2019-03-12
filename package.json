@@ -8,5 +8,20 @@
   "main": "index.js",
   "repository": "https://github.com/Yesterday17/gitbook-plugin-heimu",
   "author": "Yesterday17 <t@yesterday17.cn>",
-  "license": "MIT"
+  "license": "MIT",
+  "gitbook": {
+    "properties": {
+      "keyword": {
+        "type": "string",
+        "default": "black",
+        "description": "Keyword to be replaced."
+      },
+      "title": {
+        "type": "string",
+        "default": "",
+        "description": "Title for heimu text."
+      }
+    }
+  },
+  "dependencies": {}
 }
