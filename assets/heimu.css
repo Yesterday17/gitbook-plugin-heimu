@@ -1,0 +1,9 @@
+.heimu {
+  background-color: #252525;
+  color: #252525;
+  text-shadow: none;
+}
+
+.heimu:hover {
+  background-color: #fff;
+}

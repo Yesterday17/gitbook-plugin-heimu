@@ -1,0 +1,12 @@
+{
+  "name": "gitbook-plugin-heimu",
+  "version": "1.0.0",
+  "description": "Moegirlpedia-like heimu.",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Yesterday17/gitbook-plugin-heimu",
+  "author": "Yesterday17 <t@yesterday17.cn>",
+  "license": "MIT"
+}
