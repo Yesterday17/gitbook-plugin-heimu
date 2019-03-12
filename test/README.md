@@ -1,3 +1,0 @@
-# Introduction
-
-<black>HIDDEN</black>
