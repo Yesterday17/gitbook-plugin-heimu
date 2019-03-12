@@ -1,0 +1,7 @@
+{
+  "title": "Test Heimu",
+  "description": "Test heimu here.",
+  "plugins": [
+    "heimu@git+https://github.com/Yesterday17/gitbook-plugin-heimu.git"
+  ]
+}
