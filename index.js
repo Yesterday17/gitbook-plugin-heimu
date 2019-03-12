@@ -6,12 +6,11 @@ module.exports = {
   hooks: {
     page: function(page) {
       var cfg = this.config.values.pluginsConfig.heimu;
+      var open = new RegExp(`<${cfg.keyword}>`, "g");
+      var close = new RegExp(`</${cfg.keyword}>`, "g");
       page.content = page.content
-        .replace(
-          `<${cfg.keyword}>`,
-          `<span class="heimu" title="${cfg.title}">`
-        )
-        .replace(`</${cfg.keyword}>`, "</span>");
+        .replace(open, `<span class="heimu" title="${cfg.title}">`)
+        .replace(close, "</span>");
       return page;
     }
   }
