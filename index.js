@@ -6,7 +6,7 @@ module.exports = {
   hooks: {
     page: function(page) {
       page.content = page.content
-        .replace("<black>", `<span class="heilu">`)
+        .replace("<black>", `<span class="heimu">`)
         .replace("</black>", "</span>");
       return page;
     }
