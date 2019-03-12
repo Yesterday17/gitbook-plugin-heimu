@@ -1,4 +1,6 @@
-.heimu {
+.heimu,
+.heimu a,
+a .heimu {
   background-color: #252525;
   color: #252525;
   text-shadow: none;
@@ -7,5 +9,10 @@
 .heimu:hover,
 .heimu:active {
   transition: color 0.13s linear;
-  color: #ffffff;
+  color: #fff;
+}
+
+.heimu:hover a {
+  transition: color 0.13s linear;
+  color: #add8e6;
 }

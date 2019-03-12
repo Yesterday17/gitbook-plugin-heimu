@@ -1,0 +1,11 @@
+{
+  "title": "heimu",
+  "description": "Test heimu.",
+  "author": "Yesterday17",
+  "plugins": ["heimu"],
+  "pluginsConfig": {
+    "heimu": {
+      "title": "你知道的太多了"
+    }
+  }
+}
